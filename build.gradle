@@ -1,5 +1,5 @@
 group 'org.yunghegel.gdx'
-version '0.1-SNAPSHOT'
+version "$gdxPickingVersion"
 
 dependencies {
 //    implementation project(path: ':gdx-gizmos')
@@ -21,8 +21,8 @@ publishing {
     publications {
         mavenJava(MavenPublication) {
             groupId = "org.yunghegel.gdx"
-            artifactId = "gdx-yung-utils"
-            version ="0.1-SNAPSHOT"
+            artifactId = "gdx-picking"
+            version = version
             from components.java
         }
     }
