@@ -1,7 +1,12 @@
+
+
 group 'org.yunghegel.gdx'
 version "$gdxPickingVersion"
 
 dependencies {
+
+    implementation 'com.github.czyzby:gdx-kiwi:1.9.1.9.6'
+
 //    implementation project(path: ':gdx-gizmos')
 
 }
